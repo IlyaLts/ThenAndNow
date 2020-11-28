@@ -471,19 +471,3 @@ select {
   .column.large-uncentered.opposite,
   .columns.large-uncentered.opposite {
     float: right !important; } }
-	
-.assd {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  min-width: 0%;
-  max-width: 100%;
-  width: auto;
-  margin: 0 auto;
-  overflow: hidden
-}
-	
-.image {
-	width: auto;
-	height: 100vh;
-}
