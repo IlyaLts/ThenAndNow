@@ -54,10 +54,11 @@
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
     <script src="js/jquery.event.move.js"></script>
     <script src="js/jquery.twentytwenty.js"></script>
-	<<script src="js/jquery.scrollify.js"></script>
+	<script src="js/jquery.scrollify.js"></script>
+	<script src="js/imagesloaded.pkgd.min.js"></script>
     <script>
-		$(function(){
-		  $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.7,  before_label: 'Then', after_label: 'Now', move_slider_on_hover: true, no_overlay: false});
+		$('.twentytwenty-container').imagesLoaded(function () {
+			$(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.7,  before_label: 'Then', after_label: 'Now', move_slider_on_hover: true, no_overlay: false});
 		});
 		
 		$(function() {
