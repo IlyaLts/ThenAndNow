@@ -19,6 +19,7 @@
 	   .twentytwenty-container.active :hover.twentytwenty-overlay .twentytwenty-after-label {opacity:1}
 	
 .image {
+	object-fit: cover;
 	width: auto;
 	height: 100vh;
 }
